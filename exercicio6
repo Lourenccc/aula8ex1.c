@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdio.h>
+
+int main(){
+/*
+6)Faça um programa que receba um número real, calcule e
+exiba o quadrado dele. O programa deverá calcular o quadrado
+de vários números e finalizar quando for digitado um número
+negativo ou zero.
+*/
+    int numero;
+    int resultado;
+
+    printf("insira algum numero\n");
+    scanf("%i", numero);
+
+    while(numero >= 0){
+
+    resultado = numero * numero;
+
+    prinf("o quadrado desse numero equivale a %i", numero);
+    }
+
+return 0;
+}
